@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="David Amosu">
+    <meta name="descritpion" content="A webpage where you can budget your personal things">
+    <link rel="icon" href="/Image/Budget.png" type="image/icon">
+    <link rel="stylesheet" href="styles.css">
+    <title>Personal Budget</title>
+  </head>
+  <body>
+    <main>
+      <h1>Personal Money Budget💰</h1>
+      <div class="container">
+        <form id="money-counter">
+          <label for="budget">Budget</label>
+          <input
+            type="number"
+            min="0"
+            id="budget"
+            placeholder="Daily Personal budget"
+            required
+          />
+          <fieldset id="accessories">
+            <legend>Accessories</legend>
+            <div class="input-container"></div>
+          </fieldset>
+          <fieldset id="television">
+            <legend>Tv-Subscritpion</legend>
+            <div class="input-container"></div>
+          </fieldset>
+          <fieldset id="data">
+            <legend>Data-Subscription</legend>
+            <div class="input-container"></div>
+          </fieldset>
+          <fieldset id="cosmetics">
+            <legend>Cosmetics</legend>
+            <div class="input-container"></div>
+          </fieldset>
+          <fieldset id="books">
+            <legend>Books</legend>
+            <div class="input-container"></div>
+          </fieldset>
+          <div class="controls">
+            <span>
+              <label for="entry-dropdown">Add Clothing or Shoes:</label>
+              <select id="entry-dropdown" name="options">
+                <option value="accessories" selected>Accessories</option>
+                <option value="television">Tv-Subscritpion</option>
+                <option value="data">Data-Subscription</option>
+                <option value="cosmetics">Cosmetics</option>
+                <option value="books">Books</option>
+              </select>
+              <button type="button" id="add-entry">Add Entry</button>
+            </span>
+          </div>
+          <div>
+            <button type="submit" id="calculate-money">
+              Calculate Remaining Budgeted Money
+            </button>
+            <button type="button" id="clear">Clear</button>
+          </div>
+        </form>
+        <div id="output" class="output hide"></div>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
