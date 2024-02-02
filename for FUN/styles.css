@@ -1,0 +1,502 @@
+.team_inOurTeam {
+    max-width: 1170px;
+    margin: auto;
+    padding: 100px 20px 0 20px;
+    height: 100vh;
+    box-sizing: unset;
+    font-family: sans-serif;
+}
+
+.team_circle {
+    width: 135px;
+    height: 135px;
+    background: pink;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .7s;
+    margin: 6px;
+    text-align: center;
+    padding: 30px;
+}
+
+.aa {
+    transform: matrix(1, 0, 0, 1, 210, 0)
+}
+
+.designers {
+    transform: matrix(1, 0, 0, 1, 50, -200)
+}
+
+.ae {
+    transform: matrix(1, 0, 0, 1, 470, -1150)
+}
+
+.ac {
+    transform: matrix(1, 0, 0, 1, 500, -460)
+}
+
+.founders {
+    transform: matrix(1, 0, 0, 1, 700, -1220)
+}
+
+.ad {
+    transform: matrix(1, 0, 0, 1, 770, -520)
+}
+
+.aj {
+    transform: matrix(1, 0, 0, 1, 830, -2950)
+}
+
+.ab {
+    transform: matrix(1, 0, 0, 1, 310, -120)
+}
+
+.af {
+    transform: matrix(1, 0, 0, 1, 0, -1220)
+}
+
+.illustrators {
+    transform: matrix(1, 0, 0, 1, 80, -910)
+}
+
+.ag {
+    transform: matrix(1, 0, 0, 1, 470, -1440)
+}
+
+.ah {
+    transform: matrix(1, 0, 0, 1, 250, -1620)
+}
+
+.ak {
+    transform: matrix(1, 0, 0, 1, 50, -2780)
+}
+
+.animators {
+    transform: matrix(1, 0, 0, 1, 900, -1600)
+}
+
+.salesExecutives {
+    transform: matrix(1, 0, 0, 1, 990, -2880)
+}
+
+.ai {
+    transform: matrix(1, 0, 0, 1, 720, -1880)
+}
+
+.lensMan {
+    transform: matrix(1, 0, 0, 1, 550, -2100)
+}
+
+.developers {
+    transform: matrix(1, 0, 0, 1, 260, -840)
+}
+
+.developers {
+    background-color: #333;
+}
+
+.designers {
+    background-color: #1EA2E0;
+}
+
+.animators {
+    background-color: #8165A6;
+}
+
+.illustrators {
+    background-color: #db8433;
+}
+
+.founders {
+    background-color: #22ca24;
+}
+
+.lensMan {
+    background-color: #ff60b0;
+}
+
+.salesExecutives {
+    background-color: #55cfff;
+}
+
+.jobPost {
+    width: 80px;
+    height: 80px;
+    flex-direction: column;
+}
+
+.teamMember {
+    filter: grayscale(100%)
+}
+
+.team_md {
+    width: 120px;
+    height: 120px;
+}
+
+.team_lg {
+    width: 200px;
+    height: 200px;
+}
+
+@media (max-width: 1400px) {
+    .team_inOurTeam {
+        height: calc(100vh + 250px);
+    }
+}
+
+@media (max-width: 1200px) {
+    .s-m-waqas {
+        transform: matrix(1, 0, 0, 1, 210, 0)
+    }
+
+    .designers {
+        transform: matrix(1, 0, 0, 1, 50, -200)
+    }
+
+    .waqas {
+        transform: matrix(1, 0, 0, 1, 470, -1150)
+    }
+
+    .salman-ahmed {
+        transform: matrix(1, 0, 0, 1, 500, -460)
+    }
+
+    .founders {
+        transform: matrix(1, 0, 0, 1, 700, -1220)
+    }
+
+    .owais-ahmed {
+        transform: matrix(1, 0, 0, 1, 310, -120)
+    }
+
+    .junaid-afzal {
+        transform: matrix(1, 0, 0, 1, 0, -1220)
+    }
+
+    .illustrators {
+        transform: matrix(1, 0, 0, 1, 80, -910)
+    }
+
+    .bilal-ahmed {
+        transform: matrix(1, 0, 0, 1, 470, -1440)
+    }
+
+    .syed-faizan-raza {
+        transform: matrix(1, 0, 0, 1, 250, -1620)
+    }
+
+    .haris-khan {
+        transform: matrix(1, 0, 0, 1, 50, -2780)
+    }
+
+    .lensMan {
+        transform: matrix(1, 0, 0, 1, 550, -2100)
+    }
+
+    .developers {
+        transform: matrix(1, 0, 0, 1, 260, -840)
+    }
+
+    .noman-ahmed {
+        transform: matrix(1, 0, 0, 1, 460, -2080)
+    }
+
+    .animators {
+        transform: matrix(1, 0, 0, 1, 720, -1480)
+    }
+
+    .salesExecutives {
+        transform: matrix(1, 0, 0, 1, 0, -2250)
+    }
+
+    .usama-baig {
+        transform: matrix(1, 0, 0, 1, 700, -490)
+    }
+
+    .syed-sohaib {
+        transform: matrix(1, 0, 0, 1, 180, -1600)
+    }
+
+    .team_inOurTeam {
+        height: calc(100vh + 500px);
+    }
+}
+
+@media (max-width: 1000px) {
+    .s-m-waqas {
+        transform: matrix(1, 0, 0, 1, 110, 0)
+    }
+
+    .designers {
+        transform: matrix(1, 0, 0, 1, -50, -200)
+    }
+
+    .waqas {
+        transform: matrix(1, 0, 0, 1, 370, -1150)
+    }
+
+    .salman-ahmed {
+        transform: matrix(1, 0, 0, 1, 400, -460)
+    }
+
+    .owais-ahmed {
+        transform: matrix(1, 0, 0, 1, 210, -120)
+    }
+
+    .junaid-afzal {
+        transform: matrix(1, 0, 0, 1, -100, -1220)
+    }
+
+    .illustrators {
+        transform: matrix(1, 0, 0, 1, -20, -910)
+    }
+
+    .syed-faizan-raza {
+        transform: matrix(1, 0, 0, 1, 150, -1620)
+    }
+
+    .haris-khan {
+        transform: matrix(1, 0, 0, 1, -50, -2780)
+    }
+
+    .lensMan {
+        transform: matrix(1, 0, 0, 1, 450, -2100)
+    }
+
+    .developers {
+        transform: matrix(1, 0, 0, 1, 160, -840)
+    }
+
+    .noman-ahmed {
+        transform: matrix(1, 0, 0, 1, 360, -2080)
+    }
+
+    .animators {
+        transform: matrix(1, 0, 0, 1, 580, -1520)
+    }
+
+    .salesExecutives {
+        transform: matrix(1, 0, 0, 1, -100, -2250)
+    }
+
+    .usama-baig {
+        transform: matrix(1, 0, 0, 1, 0, -1000)
+    }
+
+    .syed-sohaib {
+        transform: matrix(1, 0, 0, 1, 80, -1600)
+    }
+
+    .bilal-ahmed {
+        transform: matrix(1, 0, 0, 1, 330, -1440)
+    }
+
+    .founders {
+        transform: matrix(1, 0, 0, 1, 560, -1230)
+    }
+
+    .team_inOurTeam {
+        padding: 10px;
+        padding-left: 40px;
+    }
+}
+
+@media (max-width: 800px) {
+    .team_circle {
+        float: left;
+    }
+
+    .s-m-waqas {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .designers {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .waqas {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .salman-ahmed {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .owais-ahmed {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .junaid-afzal {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .illustrators {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .syed-faizan-raza {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .haris-khan {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .lensMan {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .developers {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .noman-ahmed {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .animators {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .salesExecutives {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .usama-baig {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .syed-sohaib {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .bilal-ahmed {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .founders {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .team_ourTeam {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .team_inOurTeam {
+        padding: 10px;
+        padding-left: 40px;
+        height: calc(100vh - 200px);
+    }
+
+    .team_md,
+    .team_lg,
+    .jobPost {
+        width: 40px;
+        height: 40px;
+        font-size: small;
+    }
+}
+
+@media (max-width: 400px) {
+    .team_circle {
+        float: left;
+    }
+
+    .s-m-waqas {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .designers {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .waqas {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .salman-ahmed {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .owais-ahmed {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .junaid-afzal {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .illustrators {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .syed-faizan-raza {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .haris-khan {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .lensMan {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .developers {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .noman-ahmed {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .animators {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .salesExecutives {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .usama-baig {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .syed-sohaib {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .bilal-ahmed {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .founders {
+        transform: matrix(1, 0, 0, 1, 0, 0)
+    }
+
+    .team_ourTeam {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .team_inOurTeam {
+        padding: 10px;
+        padding-left: 30px;
+    }
+
+    .sm,
+    .team_md,
+    .team_lg,
+    .jobPost {
+        width: 30px;
+        height: 30px;
+        font-size: x-small;
+    }
+}
